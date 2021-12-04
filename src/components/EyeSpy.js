@@ -23,7 +23,7 @@ class EyeSpy extends PureComponent{
 				tooth: white,
 				plant: white,
 				display: eyeSpy,
-				message: "Can you find all the items before the time runs out?"
+				message: "Can you find all the items?"
 			}
 			
 			
@@ -234,7 +234,7 @@ class EyeSpy extends PureComponent{
 							<button className="tooth" onClick={(event)=>{this.clickTooth();}}></button>
 							<button className="plant" onClick={(event)=>{this.clickPlant();}}></button>
 						</div>
-							<button className="btn btn-success" onClick={this.reset}>Play Again</button>
+							<button className="btn btn-success" onClick={this.reset}>Play Again</button><br/><br/>
 					</div>
 				</div>
 				<BottomPage />

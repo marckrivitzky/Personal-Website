@@ -2,17 +2,17 @@ import React, { PureComponent} from "react";
 import { withRouter } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap'
 import NavBar from "./NavBar";
-import drawing1 from "../assets/drawing1.png"
-import drawing2 from "../assets/drawing2.png"
-import drawing3 from "../assets/drawing3.png"
-import drawing4 from "../assets/drawing4.png"
-import drawing5 from "../assets/drawing5.png"
-import drawing6 from "../assets/drawing6.png"
-import drawing7 from "../assets/drawing7.png"
-import drawing8 from "../assets/drawing8.png"
-import drawing9 from "../assets/drawing9.png"
+import drawing1 from "../assets/drawing1a.png"
+import drawing2 from "../assets/drawing2a.png"
+import drawing3 from "../assets/drawing3a.png"
+import drawing4 from "../assets/drawing4a.png"
+import drawing5 from "../assets/drawing5a.png"
+import drawing6 from "../assets/drawing6a.png"
+import drawing7 from "../assets/drawing7a.png"
+import drawing8 from "../assets/drawing8a.png"
+import drawing9 from "../assets/drawing9a.png"
 import drawing10 from "../assets/drawing10.png"
-import drawing11 from "../assets/drawing11.png"
+import drawing11 from "../assets/drawing11a.png"
 import drawing12 from "../assets/drawing14.png"
 import BottomPage from "./BottomPage";
 import ModalArt from "./modalArt";
