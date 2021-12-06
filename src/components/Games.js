@@ -27,8 +27,9 @@ class Games extends PureComponent{
 			<div className="resume-page">
 				<NavBar/>
 				<div className="games-container">
+					<br/>
 					<h1 className="games-page-title">Simple ReactJS Games!</h1>
-					<br/><br/>	
+					<br/>
 
 					<div className="game-cards">
 						<div className="row">

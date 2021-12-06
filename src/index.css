@@ -48,11 +48,13 @@ font-weight: bold;
 .project-weed-store{
 border: 10px solid  darkblue;
 padding: 8px;
-height: 600px;
-width: 320px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
 background-color: rgb(107, 224, 123);
 background-color:mediumaquamarine ;
-border-radius: 30px;
+
 }
 
 
@@ -74,11 +76,15 @@ position: relative;
 border: 7px solid  darkblue;
 }
 
-
+.project-page-container{
+margin-left: auto;
+margin-right: auto;
+}
 
 .coding-projects{
 margin-left: auto;
 margin-right: auto;
+
 padding: 8px;
 }
 
@@ -497,7 +503,7 @@ opacity: 0%;
 .eye-spy-bottom-message{
 position: relative;
 top: 770px;
-font-family: cursive;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: darkblue;
 font-weight: bold;
 }
@@ -508,7 +514,7 @@ top: 25px;
 }
 
 .eye-spy{
-font-family: cursive;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .eye-spy-container{
@@ -520,11 +526,11 @@ font-weight: bold;
 }
 
 .directions2{
-font-family: cursive;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .directions-description2{
-font-family: cursive;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -569,12 +575,13 @@ font-weight: bold;
 }
 
 .games-page-title{
-position: relative;
+
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 border-radius: 30px;
 color: darkblue;
 background-color: darkgray;
 width: 450px;
-left: 530px;
-top: 15px;
+margin-left: auto;
+    margin-right: auto;
+margin-top: auto;
 }

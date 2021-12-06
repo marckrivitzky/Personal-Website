@@ -20,17 +20,17 @@ import donation from "../assets/donation.png"
 
 	render(){
 		return(
-			<div className="home-page-containter">
+			<div className="project-page-container">
 				<NavBar/>
 				<br />
 				<h2 className="art-title">Coding Projects</h2>
 				<div className="coding-projects">
 				
 					<br />
-					<div className="row">
+					<div className="card-group">
 
 						
-						<div className="col">
+						<div className="card">
 							<div className="project-weed-store">
 								<h4 className="why-us">Conor McGregor Game</h4>
 								<br />
@@ -47,7 +47,7 @@ import donation from "../assets/donation.png"
 							</div>
 					    </div>
 
-						<div className="col">
+						<div className="card">
 							<div className="project-weed-store">
 								<h4 className="why-us">Big Cat Foundation</h4>
 								<br />
@@ -64,7 +64,7 @@ import donation from "../assets/donation.png"
 							</div>
 					    </div>
 						
-						<div className="col">
+						<div className="card">
 							<div className="project-weed-store">
 								<h4 className="why-us">Student Debt Slayers</h4>
 								<br />
@@ -80,7 +80,7 @@ import donation from "../assets/donation.png"
 							</div>
 					    </div>
 					
-						<div className="col">
+						<div className="card">
 							<div className="project-weed-store">
 								<h4 className="why-us">WEED LIKE 2 HELP</h4>
 								<br />
