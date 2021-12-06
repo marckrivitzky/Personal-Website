@@ -41,8 +41,7 @@ import {Card} from 'react-bootstrap'
 							in front-end development. Before beginning my journey into developing, I worked
 							 as an accounting administrator at a company called AKRF, Inc. This experience 
 							provided a strong foundation in interpersonal, analytical, and collaborative 
-							problem solving, as well as more general administrative tasks within 
-							a professional setting. During my time working at AKRF, I dreamed of finding 
+							problem solving. During my time working at AKRF, I dreamed of finding 
 							a career path that excited me and made me want to jump out of bed everyday. 
 							In 2020, during the height of the COVID pandemic, I began to think about my 
 							long term career goals more and decided to leave AKRF. I was passionate about art 

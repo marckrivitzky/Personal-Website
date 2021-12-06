@@ -26,12 +26,13 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .home-page-card{
-position: relative;
+margin-left: auto;
+    margin-right: auto;
 border: 10px solid  darkblue;
 border-radius: 30px;
 width:  max-content;
 height: max-content;
-left: 520px;
+
 }
 
 .marc-title-card-name{
@@ -76,8 +77,9 @@ border: 7px solid  darkblue;
 
 
 .coding-projects{
-position: relative;
-left: 18px;
+margin-left: auto;
+margin-right: auto;
+padding: 8px;
 }
 
 
@@ -328,13 +330,14 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 .art-title{
-position: relative;
+
 border-radius: 30px;
 color: darkblue;
 background-color: darkgray;
 width: 400px;
 height: 45px;
-left: 560px;
+margin-left: auto;
+    margin-right: auto;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -539,23 +542,20 @@ width: 413px;
 border-radius: 25%;
 }
 
-
 .game-cards{
-position: relative;
-left: 164px;
-
+margin-left: auto;
+    margin-right: auto;
 }
 
 #game-one{
-position: relative;
-left: 150px;
-
-
+margin-left: auto;
+ 
 }
 
+
 #game-two{
-position: relative;
-right: 150px;
+
+    margin-right: auto;
 
 }
 
