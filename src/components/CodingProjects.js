@@ -88,9 +88,7 @@ import donation from "../assets/donation.png"
 								
 								<br /><br/>
 								<p className="coding-project-description">
-									I created a functional store application with 13 components 
-									working together to perform all the aspects of a CRUD application. 
-									 I used a combination of class and functional components with hooks consisting of 
+									I created a CRUD application using a combination of class and functional components with hooks consisting of 
 									useState, setState, useHistory, and more.  In addition, I used React Router in order
 									 to create a multipage app with simple navigation.  Finally, I used React Bootstrap, 
 									React Icons, and CSS in order to design and layout my application.  
