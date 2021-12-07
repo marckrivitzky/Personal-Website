@@ -171,7 +171,7 @@ class EyeSpy extends PureComponent{
 			<div className="eye-spy">
 				<NavBar />
 				<div className="eye-spy-modal"><GameModal2/></div>
-				<h1 className="eye-spy-bottom-message">{this.state.message}</h1>
+				
 				<div className="background-container-eye-spy">
 					<button  className="eye-spy-image"><img  src={this.state.display} style={{height:"504x", width:"672px"}} /></button>
 					<br /><br />
@@ -243,3 +243,44 @@ class EyeSpy extends PureComponent{
 	}
 }
 export default withRouter(EyeSpy)
+
+// import React, { PureComponent} from "react";
+// import { withRouter } from 'react-router-dom';
+// import NavBar from "./NavBar";
+// import BottomPage from "./BottomPage";
+// import room from "../assets/roomFull.png"
+// import dumbbell from "../assets/roomDumbbell.png"
+// import figure from "../assets/roomFigure.png"
+// import firePlace from "../assets/roomFirePlace.png"
+// import hourGlass from "../assets/roomHourGlass.png"
+// import plant from "../assets/roomPlant.png"
+// import yogaBall from "../assets/roomYogaBall.png"
+// import yogaMat from "../assets/roomYogaMat.png"
+
+
+
+// class EyeSpy extends PureComponent{
+// 	constructor(props){
+// 		super(props);
+// 	}		
+			
+
+// 	render(){
+
+// 		return(
+// 			<div className="eye-spy">
+// 				<NavBar />
+// 					<img src={room}	height="497.14px" width="795.4px" alt="image" className="full-room" />
+// 					<img src={dumbbell}	height="497.14px" width="795.4px" alt="image" className="dumbbell-room" />
+// 					{/* <img src={figure} height="497.14px" width="795.4px" alt="image" className="figure-room" />
+// 					<img src={firePlace} height="497.14px" width="795.4px" alt="image" className="fire-place-room" />
+// 					<img src={hourGlass} height="497.14px" width="795.4px" alt="image" className="hour-glass-room" />
+// 					<img src={plant} height="497.14px" width="795.4px" alt="image" className="plant-room" />
+// 					<img src={yogaBall}	height="497.14px" width="795.4px" alt="image" className="yoga-ball-room" />
+// 					<img src={yogaMat} height="497.14px" width="795.4px" alt="image" className="yoga-mat-room" /> */}
+// 				<BottomPage />
+// 			</div>
+// 		);
+// 	}
+// }
+// export default withRouter(EyeSpy)

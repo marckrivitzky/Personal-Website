@@ -21,13 +21,14 @@ class BottomPage extends PureComponent{
 					
 				    <div className="col">
 						<br />
-				      <h4 className="about-us">Information</h4> 
+				      <h4 className="about-us">Information:</h4> 
 						 <br/>
 						 <p className="about-us"> 
 							 Location: Red Bank, New Jersey <br />
-							 Contact: 732-614-8149
+							 Contact: <a href="tel:7326148149"> 732-614-8149 </a>
+							
 						  </p>
-							<br />
+							
 							<Card.Link href="https://www.instagram.com/digital.art.marc/">{instagram}</Card.Link>
 							<Card.Link href="https://github.com/marckrivitzky">{github}</Card.Link>
 							<Card.Link href="https://www.linkedin.com/in/marc-krivitzky-1a47a9215/">{linkedin}</Card.Link>
