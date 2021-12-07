@@ -1,6 +1,6 @@
 import React, { PureComponent} from "react";
 import { withRouter } from 'react-router-dom';
-import resume from '../assets/MyResume.png'
+import resume from '../assets/doneResume.png'
 import NavBar from "./NavBar";
 import { Card } from "react-bootstrap";
 import BottomPage from "./BottomPage";
@@ -26,7 +26,7 @@ class Resume extends PureComponent{
 					<div class="col">
 						<div className="resume-card">
 							<br />
-							<img src={resume} width="615.45px" height="800px" className="resume-image"/>
+							<img src={resume} width="807px" height="911px" className="resume-image"/>
 							
 							<br /><br/>
 					

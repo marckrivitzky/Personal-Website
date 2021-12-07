@@ -74,9 +74,9 @@ import donation from "../assets/donation.png"
 								<p className="coding-project-description">
 									In partnership with a team of entrepreneurs, I'm building an 
 									app to help people tackle student loan debt. I'm responsible 
-									for the front-end programming and app design.
+									for the front-end programming and app design.  Unfortunately I am unable to share the app at this time.
 								</p>
-								<Card.Link style={{color: "darkblue" }} href="https://marc-dev.dx5mnd6szzv1w.amplifyapp.com/">Click here to see the app!</Card.Link>
+								
 							</div>
 					    </div>
 					

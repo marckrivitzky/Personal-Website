@@ -48,7 +48,7 @@ export default class GameModal extends React.Component{
 						</div>
 					</Modal>
 				
-				<button className="btn btn-secondary" id="open-modal-button" onClick={this.openModal}>Click here for directionsnpm </button>
+				<button className="btn btn-secondary" id="open-modal-button" onClick={this.openModal}>Click here for directions </button>
 			 		
 			</div>	
 				
