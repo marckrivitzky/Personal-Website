@@ -36,7 +36,7 @@ import {Card} from 'react-bootstrap'
 					
 						<h5 className="marc-title-card-job">Front End Developer</h5>
 					    <p className="marc-title-card-description">
-					     	Hi! Thanks for visiting my website! My name is Marc Krivitzky and I'm a 
+					     	Hi! Thank you for visiting my website! My name is Marc Krivitzky and I'm a 
 							creative, organized, and hard working individual looking to begin my career 
 							in front-end development. Before beginning my journey into developing, I worked
 							 as an accounting administrator at a company called AKRF, Inc. This experience 
