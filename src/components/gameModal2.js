@@ -40,7 +40,7 @@ export default class GameModal2 extends React.Component{
 									<div className="modal-directions2">
 										<br/>
 										<h3 className="directions2">Welcome to Eye Spy {spy}</h3>
-										<h5 className="directions-description2">Hello! I misplaced 10 items that I must find.  Please help me find everything by clicking on each item from the list below. A checkmark will appear in the corresponding box after you click the correct item. </h5>
+										<h5 className="directions-description2">Hello!! I misplaced 10 items that I must find.  Please help me find everything by clicking on each item from the list below. A checkmark will appear in the corresponding box after you click the correct item. </h5>
 										<br/>	
 										<button className="btn btn-danger" id="exit" onClick={this.closeModal}>Close</button>
 										<br/>
