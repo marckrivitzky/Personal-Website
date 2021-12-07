@@ -173,8 +173,54 @@ class EyeSpy extends PureComponent{
 				<div className="eye-spy-modal"><GameModal2/></div>
 				
 				<div className="background-container-eye-spy">
-					<button  className="eye-spy-image"><img  src={this.state.display} style={{height:"504x", width:"672px"}} /></button>
-					<br /><br />
+					<div className="buttons-to-click">
+
+							<div className="help">
+								<button  className="eye-spy-image"><img src={this.state.display} style={{height:"504x", width:"672px"}} /></button>
+							</div>
+
+							<div className="my-bottle">
+								<button className="bottle" onClick={(event)=>{this.clickBottle();}}></button>
+							</div>
+
+							<div className="my-phone">
+								<button className="phone" onClick={(event)=>{this.clickPhone();}}></button>	
+							</div>
+
+							<div className="my-skateboard">
+								<button className="skateboard" onClick={(event)=>{this.clickSkateboard();}}></button>
+							</div>
+
+							<div className="my-pencil">
+								<button className="pencil" onClick={(event)=>{this.clickPencil();}}></button>
+							</div>
+
+							<div className="my-highlighter">
+								<button className="highlighter" onClick={(event)=>{this.clickHighlighter();}}></button>	
+							</div>
+
+							<div className="my-lamp">
+								<button className="lamp" onClick={(event)=>{this.clickLamp();}}></button>
+							</div>
+
+							<div children="my-sharpener">
+								<button className="sharpener" onClick={(event)=>{this.clickSharpener();}}></button>
+							</div>
+
+							<div className="my-ticket">
+								<button className="ticket" onClick={(event)=>{this.clickTicket();}}></button>	
+							</div>
+
+							<div className="my-tooth">
+								<button className="tooth" onClick={(event)=>{this.clickTooth();}}></button>
+							</div>
+
+							<div className="my-plant">
+								<button className="plant" onClick={(event)=>{this.clickPlant();}}></button>
+							</div>
+
+						</div>
+				
 					<div className="eye-spy-container">
 						<div className="list-container">
 							<h3 className="eye-spy">I Spy...</h3>
@@ -222,18 +268,7 @@ class EyeSpy extends PureComponent{
 								
 							</div>
 						</div>
-						<div className="buttons-to-click">
-							<button className="bottle"  onClick={(event)=>{this.clickBottle();}}></button>
-							<button className="phone" onClick={(event)=>{this.clickPhone();}}></button>	
-							<button className="skateboard" onClick={(event)=>{this.clickSkateboard();}}></button>
-							<button className="pencil" onClick={(event)=>{this.clickPencil();}}></button>
-							<button className="highlighter" onClick={(event)=>{this.clickHighlighter();}}></button>	
-							<button className="lamp" onClick={(event)=>{this.clickLamp();}}></button>
-							<button className="sharpener" onClick={(event)=>{this.clickSharpener();}}></button>
-							<button className="ticket" onClick={(event)=>{this.clickTicket();}}></button>	
-							<button className="tooth" onClick={(event)=>{this.clickTooth();}}></button>
-							<button className="plant" onClick={(event)=>{this.clickPlant();}}></button>
-						</div>
+						
 							<button className="btn btn-success" onClick={this.reset}>Play Again</button><br/><br/>
 					</div>
 				</div>

@@ -396,24 +396,39 @@ color: white;
 
 /* __________EYE SPY PAGE________________________________________ */
 
+#open-modal-button{
+position: relative;
+z-index: 1;
+}
+
+.buttons-to-click{
+position: relative;
+max-height: 600px;
+}
 
 
-.bottle{
-position: absolute;
-margin-left: -18.5%;
-margin-top: -26.25%;
+.my-bottle{
+position: static;
+}
+
+ .bottle{
+position: relative;
+right: 272px;
+bottom: 198px;
 height:45px;
 width:19px;
 transform: rotate(177deg);
 opacity: 100%;
 }
 
-
+.my-phone{
+position: static;
+}
 
 .phone{
-position: absolute;
-margin-left: -15.8%;
-margin-top: -18.5%;
+position: relative;
+right: 220px;
+bottom: 133px;
 height:93px;
 width:25px;
 transform: rotate(67deg);
@@ -421,11 +436,14 @@ opacity: 100%;
 border-radius: 73% 27% 80% 20% / 35% 66% 34% 65%  
 }
 
+.my-skateboard{
+position: static;
+}
 
 .skateboard{
-position: absolute;
-margin-left: 10.25%;
-margin-top: -27%;
+position: relative;
+left: 180px;
+bottom: 367px;
 width: 45px;
 height: 10px;
 transform: rotate(.5deg);
@@ -433,78 +451,108 @@ opacity:100%;
 border-radius: 13% 100% 23% 90% / 11% 91% 10% 80% 
 }
 
+.my-pencil{
+position: static;
+}
+
 .pencil{
-position: absolute;
-margin-left: -20%;
-margin-top: -16.5%;
+position: relative;
+right: 289px;
+bottom: 238px;
 width: 25px;
 transform: rotate(116deg);
 opacity: 100%;
 border-radius: 13% 100% 23% 90% / 11% 91% 10% 80% 
 }
 
+.my-highlighter{
+position: static;
+}
+
 .highlighter{
-position: absolute;
+position: relative;
 width: 24px;
 height: 13px;
-margin-left: 4.85%;
-margin-top: -24%;
+left: 86px;
+bottom: 365px;
 transform: rotate(86deg);
 opacity: 100%;
 }
 
-.lamp{
-position: absolute;
+.my-lamp{
+position: static;
+}
+
+
+ .lamp{
+position: relative;
+left: 200px;
+bottom: 609px;
 width: 100px;
 height: 100px;
-margin-left: 9.5%;
-margin-top: -39%;
 border-radius: 27% 73% 28% 72% / 74% 31% 69% 26% ;
 transform: rotate(255deg);
 opacity: 100%;
+} 
+
+.my-sharpener{
+position: static;
 }
 
 .sharpener{
-position: absolute;
+position: relative;
+right: 248px;
+bottom: 530px;
 width: 27px;
 height: 50px;
-margin-left: -17.25%;
-margin-top: -26.9%;
 transform: rotate(177deg);
 opacity: 100%;
 }
 
+.my-ticket{
+position: static;
+}
+
 .ticket{
-position: absolute;
+position: relative;
+left: 143px;
+bottom: 568px;
 width: 24px;
 height: 21px;
-margin-left: 8.65%;
-margin-top: -25.75%;
 transform: rotate(119deg);
 opacity: 100%;
 border-radius:61% 45% 70% 49% / 0% 100% 0% 99%   ;
 }
 
+.my-tooth{
+position: static;
+}
+
 .tooth{
-position: absolute;
-margin-left: 18.65%;
-margin-top: -23.5%;
+position: relative;
+left: 291.5px;
+bottom: 567px;
 transform: rotate(10deg);
 height: 9.3px;
 width: 18px;
 opacity: 100%;
 }
 
+.my-plant{
+position: static;
+}
+
+
 .plant{
-position: absolute;
+position: relative;
+left:199.5px;
+bottom: 725px;
 width: 60px;
 height: 60px;
-margin-left: 11.25%;
-margin-top: -32.6%;
 border-radius: 100% 100% 100% 100% / 100% 100% 100% 99%   ;
 transform: rotate(255deg);
 opacity: 100%;
-}
+} */
 
 
 .eye-spy-bottom-message{
