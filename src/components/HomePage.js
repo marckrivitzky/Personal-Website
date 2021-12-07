@@ -34,7 +34,7 @@ import {Card} from 'react-bootstrap'
 						<br />
 					    <h1 className="marc-title-card-name">Marc Krivitzky</h1>
 					
-						<h5 className="marc-title-card-job">Front-end developer</h5>
+						<h5 className="marc-title-card-job">Front End Developer</h5>
 					    <p className="marc-title-card-description">
 					     	Hi! Thanks for visiting my website! My name is Marc Krivitzky and I'm a 
 							creative, organized, and hard working individual looking to begin my career 
