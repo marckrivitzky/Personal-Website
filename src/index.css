@@ -406,6 +406,7 @@ max-height: 570px;
 }
 
 
+
 .my-bottle{
 position: static;
 }
@@ -569,6 +570,7 @@ top: 25px;
 
 .eye-spy{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+max-width: 3000px;
 }
 
 .eye-spy-container{
