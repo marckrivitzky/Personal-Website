@@ -221,55 +221,55 @@ class EyeSpy extends PureComponent{
 
 						</div>
 				
-					<div className="eye-spy-container">
-						<div className="list-container">
-							<h3 className="eye-spy">I Spy...</h3>
-							<div className="row">
-								<div className="col">
-									<img src={this.state.bottle} height="80px" width="80px"/>
-									<p className="eye-spy-description"> a pill bottle</p>
-								</div>
-								<div className="col">
-									<img src={this.state.iphone} height="80px" width="80px"/>
-									<p className="eye-spy-description"> an iphone</p>
-								</div>
-								<div className="col">
-									<img src={this.state.skateboard} height="80px" width="80px"/>
-									<p className="eye-spy-description">a skateboard</p>
-								</div>
-								<div className="col">
-									<img src={this.state.pencil} height="80px" width="80px"/>
-									<p className="eye-spy-description">a pencil</p>
-								</div>
-								<div className="col">
-									<img src={this.state.highlighter} height="80px" width="80px"/>
-									<p className="eye-spy-description">a highlighter</p>
-								</div>
-								<div className="col">
-									<img src={this.state.lamp} height="80px" width="80px"/>
-									<p className="eye-spy-description">a lamp shade</p>
-								</div>
-								<div className="col">
-									<img src={this.state.sharpener} height="80px" width="80px"/>
-									<p className="eye-spy-description">a sharpener</p>
-								</div>
-								<div className="col">
-									<img src={this.state.ticket} height="80px" width="80px"/>
-									<p className="eye-spy-description">a concert ticket</p>
-								</div>
-								<div className="col">
-									<img src={this.state.tooth} height="80px" width="80px"/>
-									<p className="eye-spy-description">a shark tooth</p>
-								</div>
-								<div className="col">
-									<img src={this.state.plant} height="80px" width="80px"/>
-									<p className="eye-spy-description">a fake plant</p>
-								</div>
-								
+						<div className="eye-spy-container">
+							<div className="list-container">
+								<h3 className="eye-spy">I Spy...</h3>
+								<div className="row">
+									<div className="col">
+										<img src={this.state.bottle} height="80px" width="80px"/>
+										<p className="eye-spy-description"> a pill bottle</p>
+									</div>
+									<div className="col">
+										<img src={this.state.iphone} height="80px" width="80px"/>
+										<p className="eye-spy-description"> an iphone</p>
+									</div>
+									<div className="col">
+										<img src={this.state.skateboard} height="80px" width="80px"/>
+										<p className="eye-spy-description">a skateboard</p>
+									</div>
+									<div className="col">
+										<img src={this.state.pencil} height="80px" width="80px"/>
+										<p className="eye-spy-description">a pencil</p>
+									</div>
+									<div className="col">
+										<img src={this.state.highlighter} height="80px" width="80px"/>
+										<p className="eye-spy-description">a highlighter</p>
+									</div>
+									<div className="col">
+										<img src={this.state.lamp} height="80px" width="80px"/>
+										<p className="eye-spy-description">a lamp shade</p>
+									</div>
+									<div className="col">
+										<img src={this.state.sharpener} height="80px" width="80px"/>
+										<p className="eye-spy-description">a sharpener</p>
+									</div>
+									<div className="col">
+										<img src={this.state.ticket} height="80px" width="80px"/>
+										<p className="eye-spy-description">a concert ticket</p>
+									</div>
+									<div className="col">
+										<img src={this.state.tooth} height="80px" width="80px"/>
+										<p className="eye-spy-description">a shark tooth</p>
+									</div>
+									<div className="col">
+										<img src={this.state.plant} height="80px" width="80px"/>
+										<p className="eye-spy-description">a fake plant</p>
+									</div>
+									
 							</div>
 						</div>
 						
-							<button className="btn btn-success" onClick={this.reset}>Play Again</button><br/><br/>
+							<button className="btn btn-success" type="button" onClick={this.reset}>Play Again</button><br/><br/>
 					</div>
 				</div>
 				<BottomPage />

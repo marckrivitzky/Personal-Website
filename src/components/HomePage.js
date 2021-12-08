@@ -5,7 +5,7 @@ import BottomPage from "./BottomPage";
 import Marc from "../assets/marc.png"
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Card} from 'react-bootstrap'
-
+import Timer from "./timer";
  class HomePage extends PureComponent{
 	constructor(props){
 		super(props);
@@ -25,6 +25,7 @@ import {Card} from 'react-bootstrap'
 		return(
 			<div className="home-page-containter">
 				<NavBar />
+				{/* <Timer /> */}
 				<br/>
 				<div className="home-page-card">					
 					<Card style={{ width: '29rem', borderRadius: '25px', backgroundColor: "mediumaquamarine" }}>
