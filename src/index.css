@@ -555,6 +555,10 @@ opacity: 100%;
 } */
 
 
+.eye-spy-image{
+position: absolute;
+}
+
 .eye-spy-bottom-message{
 position: relative;
 top: 770px;
@@ -610,13 +614,14 @@ margin-left: auto;
 }
 
 #game-one{
+position: relative;
 margin-left: auto;
  
 }
 
 
 #game-two{
-
+position: relative;
     margin-right: auto;
 
 }

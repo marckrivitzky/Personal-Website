@@ -5,9 +5,7 @@ import HomePage from './components/HomePage';
 import CodingProjects from './components/CodingProjects';
 import Resume from './components/Resume';
 import DigitalArt from './components/DigitalArt';
-import Game from './components/Game';
-import EyeSpy from './components/EyeSpy'
-import Games from './components/Games';
+
 
 function App() {
   return (
@@ -32,17 +30,7 @@ function App() {
             <DigitalArt />
           </Route>
 
-        <Route path="/Games" exact>
-          <Games/>
-        </Route>
-  
-          <Route path="/Game" exact>
-            <Game />
-          </Route>
-
-          <Route path="/EyeSpy" exact>
-            <EyeSpy />
-          </Route>
+    
 
         </Switch>
       </Router>

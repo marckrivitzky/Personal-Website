@@ -7,6 +7,7 @@ import studentDebt from "../assets/studentDebt.png"
 import BottomPage from "./BottomPage";
 import conorGame from "../assets/conor-game.png"
 import donation from "../assets/donation.png"
+import exchange from "../assets/exchange.png"
 
  class CodingProjects extends PureComponent{
 	constructor(props){
@@ -14,7 +15,7 @@ import donation from "../assets/donation.png"
 			this.state = {
 				weed: weed, 
 				studentDebt: studentDebt,
-				donation: donation
+				donation: donation,
 			}
 	}
 
@@ -94,6 +95,21 @@ import donation from "../assets/donation.png"
 									React Icons, and CSS in order to design and layout my application.  
 								</p>
 								<Card.Link style={{color: "darkblue" }} className="projects-link" href="https://main.dgeh27c3pqdqp.amplifyapp.com/HomePage">Click here to see the app!</Card.Link>
+							</div>
+					    </div>
+						<div className="card">
+							<div className="project-weed-store">
+								<h4 className="why-us">US Exchange Rate</h4>
+								<br />
+								<img src={exchange} width="260px" height="160px" className="project-images"/>
+								
+								<br /><br/>
+								<p className="coding-project-description">
+								Here is another app I made just to keep adding to my coding skills. 
+								I created an app that you can see what the exchange
+								rate from the US to other countries. 
+								</p>
+								<Card.Link style={{color: "darkblue" }} href="https://main.d3mttvcp2agrir.amplifyapp.com/">Click here to see the app!</Card.Link>
 							</div>
 					    </div>
 

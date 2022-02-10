@@ -15,7 +15,7 @@ function NavBar(){
 					    <Nav.Link href="CodingProjects">Coding Projects </Nav.Link>
 						<Nav.Link href="Resume">Resume</Nav.Link>
 						<Nav.Link href="DigitalArt">Digital Art </Nav.Link>
-						<Nav.Link href="Games">Games </Nav.Link>										
+																
 			    	</Nav>
 			    </Container>
 	  		</Navbar>
